@@ -1,11 +1,25 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
   <html>
     <head>
       <title>{{ page.title }}</title>
       <!-- link to main stylesheet -->
       <link href="https://fonts.googleapis.com/css?family=Anton|Baloo+Da|Inconsolata|Montserrat|Righteous|Teko&display=swap" rel="stylesheet">
-      {% asset queerwebdev.scss !type   %}
-      {% asset queerwebdev.js !type   %}
+      {% capture inline_css %}
+        {% include_relative assets/css/queerwebdev.scss %}
+      {% endcapture %}
+      <style>
+        {{ inline_css | scssify }}
+      </style>
+      {% capture inline_js %}
+        {% include_relative assets/js/jquery.js %}
+        {% include_relative assets/js/bootstrap.js %}
+      {% endcapture %}
+      <script>
+        {{ inline_js }}
+      </script>
     </head>
     <body>
       <div class="container">

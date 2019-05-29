@@ -40,9 +40,6 @@ GEM
     erubi (1.8.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    extras (0.3.0)
-      forwardable-extended (~> 2.5)
-    fastimage (2.1.5)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -61,20 +58,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-assets (3.0.12)
-      activesupport (~> 5.0)
-      execjs (~> 2.7)
-      extras (~> 0.2)
-      fastimage (~> 2.0, >= 1.8)
-      jekyll (>= 3.5, < 4.0)
-      jekyll-sanity (~> 1.2)
-      liquid-tag-parser (~> 1.0)
-      nokogiri (~> 1.8)
-      pathutil (~> 0.16)
-      sprockets (>= 3.3, < 4.1.beta)
     jekyll-paginate (1.1.0)
-    jekyll-sanity (1.2.0)
-      jekyll (~> 3.1)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.3.1)
@@ -83,9 +67,6 @@ GEM
       listen (~> 3.0)
     kramdown (1.17.0)
     liquid (4.0.3)
-    liquid-tag-parser (1.9.0)
-      extras (~> 0.3)
-      liquid (>= 3.0, < 5.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -158,7 +139,6 @@ DEPENDENCIES
   bootstrap
   bootstrap-sass
   jekyll
-  jekyll-assets
   jekyll-paginate
   jekyll-sitemap
 

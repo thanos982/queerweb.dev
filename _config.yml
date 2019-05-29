@@ -1,6 +1,9 @@
 name: queerweb.dev
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-assets]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-assets
 assets:
   source_maps: true # false on JEKYLL_ENV=production
   destination: "/assets"

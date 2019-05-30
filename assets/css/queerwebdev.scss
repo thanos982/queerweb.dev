@@ -1,7 +1,16 @@
 @import 'bootstrap';
 
 a{
-  color: pink;
+  color: #8f34ab;
+  p &:hover,
+  .question &:hover{
+    color: #8f34ab;
+    text-decoration: none;
+    border-bottom: 1px solid #43f1d1;
+  }
+  &:visited{
+    color: #8f34ab;
+  }
 }
 
 body, html{
@@ -13,9 +22,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar-brand{
-  font-size: 2em;
+  font-size: 2.3em;
   font-family: 'Squada One', cursive;
   .queer{
     font-family: 'Dancing Script', cursive;
   }
+  background: -webkit-linear-gradient(45deg, rgba(187,16,170,1) 0%, rgba(21,194,158,1) 74%, rgba(7,233,229,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+nav{
+  .active{
+    text-decoration: underline;
+  }
+}
+
+.accordion .question a[aria-expanded=true]{
+    // border-bottom: 1px dotted #43f1d1;
 }

@@ -8,6 +8,14 @@ body, html{
   font-family: 'Inconsolata', monospace;
 }
 
-.navbar-brand, h1, h2, h3, h4, h5, h6{
-  font-family: 'Anton', sans-serif;
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Squada One', sans-serif;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  font-family: 'Squada One', cursive;
+  .queer{
+    font-family: 'Dancing Script', cursive;
+  }
 }

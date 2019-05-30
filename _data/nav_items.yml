@@ -1,0 +1,15 @@
+- title: What I Do
+  url: services
+  full_url: /services.html
+
+- title: About Me
+  url: about
+  full_url: /about.html
+
+- title: FAQs
+  url: faqs
+  full_url: /faqs.html
+
+- title: CONTACT
+  url: contact
+  full_url: /contact.html

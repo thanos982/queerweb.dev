@@ -2,11 +2,13 @@
 
 a{
   color: #8f34ab;
-  p &:hover,
-  .question &:hover{
+  p &:hover{
     color: #8f34ab;
     text-decoration: none;
     border-bottom: 1px solid #43f1d1;
+  }
+  .question &:hover{
+    text-decoration: none;
   }
   &:visited{
     color: #8f34ab;

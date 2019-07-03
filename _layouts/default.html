@@ -8,7 +8,6 @@ layout: compress
       <!-- link to main stylesheet -->
       <link href="https://fonts.googleapis.com/css?family=Squada+One|Inconsolata|Dancing+Script&display=swap" rel="stylesheet">
       <meta name="viewport" content="initial-scale=1.0">
-      <meta name="description" content="Hello. I'm Thanos, a queer web developer based in Berlin, London and available for work remotely."/>
       {% capture inline_css %}
         {% include_relative assets/css/queerwebdev.scss %}
       {% endcapture %}
@@ -31,6 +30,7 @@ layout: compress
 
         gtag('config', 'UA-141218503-1');
       </script>
+      {% seo %}
     </head>
     <body>
       <div class="container">
